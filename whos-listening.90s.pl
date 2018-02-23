@@ -5,7 +5,7 @@
 # <bitbar.author.github>kgbvax</bitbar.author.github>
 # <bitbar.desc>Show processes accepting (remote) network connections</bitbar.desc>
 # <bitbar.image>.....</bitbar.image>
-# <bitbar.abouturl>http://url-to-about.com/</bitbar.abouturl>
+# <bitbar.abouturl>https://github.com/kgbvax/bitbar-whoslistening</bitbar.abouturl>
 
 use strict;
 use warnings;
