@@ -1,4 +1,4 @@
-# Who's listening? :ear:
+# :ear: Who's listening? 
 This is a [BitBar](https://github.com/matryer/bitbar) plugin that displays processes listenting on the public network
 
 ## Problem this is trying to solve
@@ -18,6 +18,7 @@ On regular intervals (90 sec) the plugin checks
 ## Limitations
  * UDP is ignored
  * Launchers like xinted are ignored (for now)
+ * When firewall is active, it is currently not checked whether a specific service is (already) blocked by firewall, so you see false positives.
  * 'rapportd' a component believed to belong to iTunes/Homekit is not reported on purpose. Drop me a line of you have details. 
  
 
